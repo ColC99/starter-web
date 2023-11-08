@@ -1,0 +1,9 @@
+The SRoC TCM will deliver subsistence charging for three regimes calculating the charges based on data obtained from the three EA systems:
+
+PAS		- Permit Administration System
+CFD 		- Charging for Discharge
+WABS		- Waste Billing System
+
+This is the Solution Design Document for the transfer of CFD Invoice files both to and from the TCM.
+Currently CFD calculates all Invoice charges internally and writes the Invoice extract files to the Secure S Drive from where they are moved to the DMZ, picked up via Autosys by Shared Services Connected Ltd (SSCL) and made available to Single Operating Platform (SOP).
+SOP requires the Invoice files to maintain the current comma separated value format and additional charging data has been mapped to the CFD file copybook as agreed with SSCL.
